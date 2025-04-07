@@ -29,18 +29,18 @@ namespace PryElguetaConexionBD
                     connection.Open();
                     MessageBox.Show("✅ Conexión exitosa a la base de datos.");
 
-                    /*
-                    string query = "SELECT * FROM Contactos ";
+                    
+                    string query = "SELECT * FROM Productos ";
                     SqlCommand command = new SqlCommand(query, connection);
 
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
                         while (reader.Read())
                         {
-                            MessageBox.Show($"{reader["Nombre"]} - {reader["Apellido"]}");
+                            MessageBox.Show($"{reader["Codigo"]} - {reader["Nombre"]}");
                         }
                     }
-                    */
+                    
                 }
                 catch (Exception ex)
                 {

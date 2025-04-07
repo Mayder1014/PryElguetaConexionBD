@@ -20,7 +20,7 @@ namespace PryElguetaConexionBD
         clsConexionBD BD = new clsConexionBD();
         private void Form1_Load(object sender, EventArgs e)
         {
-            BD.obtenerDatos(dgvContactos);
+            //BD.obtenerDatos(dgvContactos);
         }
     }
 }
