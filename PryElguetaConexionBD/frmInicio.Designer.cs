@@ -35,17 +35,20 @@
             // dgvContactos
             // 
             this.dgvContactos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvContactos.Location = new System.Drawing.Point(12, 12);
+            this.dgvContactos.Location = new System.Drawing.Point(13, 13);
+            this.dgvContactos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvContactos.Name = "dgvContactos";
-            this.dgvContactos.Size = new System.Drawing.Size(500, 420);
+            this.dgvContactos.RowHeadersWidth = 51;
+            this.dgvContactos.Size = new System.Drawing.Size(1004, 573);
             this.dgvContactos.TabIndex = 0;
             // 
             // frmInicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(524, 444);
+            this.ClientSize = new System.Drawing.Size(1030, 599);
             this.Controls.Add(this.dgvContactos);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmInicio";
             this.Text = "Inicio";
             this.Load += new System.EventHandler(this.Form1_Load);

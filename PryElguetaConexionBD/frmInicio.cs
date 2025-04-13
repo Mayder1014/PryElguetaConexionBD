@@ -17,10 +17,11 @@ namespace PryElguetaConexionBD
             InitializeComponent();
         }
 
-        clsConexionBD BD = new clsConexionBD();
+        clsConexionBD conexion = new clsConexionBD();
         private void Form1_Load(object sender, EventArgs e)
         {
-            //BD.obtenerDatos(dgvContactos);
+            //conexion.ConectarBD(); <--- Este metodo ya se incluye directamente en el mostrarDatos
+            conexion.MostrarDatos(dgvContactos);
         }
     }
 }
